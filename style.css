@@ -7,6 +7,7 @@
 .contenitore{
     max-width: 1200px;
     margin: 0 auto;
+    height: 100%;
 }
 
 body{
@@ -79,3 +80,14 @@ header div{
 
 
 /*! CORPO DEL SITO */
+
+
+.section-top{
+    height: 500px;
+    background-color: #A1C9F7;
+}
+
+.top-section{
+    
+}
+
