@@ -8,3 +8,41 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+body{
+    overflow-y: scroll;
+}
+
+.border{
+    border: 2px dashed blue;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Intestazione */
+header{
+    display: fixed;
+    padding: 10px;
+}
+
+.small-header{
+    height: 60px;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+
