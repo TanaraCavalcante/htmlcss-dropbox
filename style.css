@@ -163,7 +163,7 @@ header div{
     flex-direction: column;
 }
 
-.columns-fatture{
+.card{
     flex-direction: row;
     flex-basis: 35px;
 }
