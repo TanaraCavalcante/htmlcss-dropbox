@@ -160,7 +160,6 @@ header div{
 .section-fatture{
     height: 900px;
     padding-top: 10%;
-    flex-direction: column;
 }
 
 .card{
