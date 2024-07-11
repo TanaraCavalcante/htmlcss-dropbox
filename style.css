@@ -15,7 +15,6 @@
 }
 
 
-
 body{
     overflow-y: scroll;
     font-family:"Open Sans";
@@ -164,7 +163,7 @@ header div{
 
 .card{
     flex-direction: row;
-    flex-basis: 35px;
+    flex-basis: 32%;
 }
 
 
