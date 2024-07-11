@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+.big-contenitore{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .contenitore{
     max-width: 900px;
     margin: 0 auto;
 }
+
+
 
 body{
     overflow-y: scroll;
@@ -64,8 +71,8 @@ p{
 /* TODO      INTESTAZIONE   */
 
 header{
-    height: 60px;
     display: fixed;
+    height: 60px;
     padding: 10px;
     box-shadow: 0px 2px 3px gray;
     font-size: 12px;
@@ -78,6 +85,7 @@ header div{
     align-items: center;
     height: 100%;
 }
+
 .img-header{
     width: 80%;
 }
@@ -85,6 +93,9 @@ header div{
     padding-top: 5px;
 }
 
+.flex{
+    display: flex;
+}
 
 /*! CORPO DEL SITO */
 
@@ -109,7 +120,7 @@ header div{
     height: 70%; 
 }
 
-.section-column{
+.section-column {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -117,14 +128,14 @@ header div{
 }
 
 .section-row :first-child{
+    display: flex;
     flex-basis: 30%;
     gap: 10px;
-    display: flex;
     text-align: left;
 }
 
 .section-column:last-child{
-    flex-basis: 70%;    
+    flex-basis: 70%; 
 }
 
 .section-top img{
@@ -134,6 +145,7 @@ header div{
     max-width: 70%;
 }
 
+/* !  SECTION-FATTURE */
 
 
 
