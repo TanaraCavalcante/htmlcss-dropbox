@@ -68,6 +68,18 @@ p{
     font-size: 12px;
 }
 
+.flex{
+    display: flex;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.gap10{
+    gap: 10px;
+}
+
 /* TODO      INTESTAZIONE   */
 
 header{
@@ -93,9 +105,7 @@ header div{
     padding-top: 5px;
 }
 
-.flex{
-    display: flex;
-}
+
 
 /*! CORPO DEL SITO */
 
@@ -147,8 +157,17 @@ header div{
 
 /* !  SECTION-FATTURE */
 
+.section-fatture{
+    height: 900px;
+    padding-top: 10%;
+    flex-direction: column;
+}
 
-
+.columns-fatture{
+    flex-direction: row;
+    flex-basis: (100%/3)
+    height: 200px;
+}
 
 
 
