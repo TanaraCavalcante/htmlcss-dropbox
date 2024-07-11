@@ -165,9 +165,9 @@ header div{
 
 .columns-fatture{
     flex-direction: row;
-    flex-basis: (100%/3)
-    height: 200px;
+    flex-basis: 35px;
 }
+
 
 
 
