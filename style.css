@@ -260,6 +260,11 @@ main{
     height: 100%;
 }
 
+.section-business > h2{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
 .business-cards{
    display: flex;
    flex-wrap: wrap;
@@ -278,5 +283,13 @@ main{
 /*!------SECTION MARKETING--------*/
 
 .section-marketing{
-
+    margin: 100px auto;
+    padding-right: 20%;
 }
+
+.section-marketing > h2{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+/*!------SECTION MARKETING--------*/
