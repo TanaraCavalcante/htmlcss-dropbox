@@ -232,7 +232,7 @@ main{
     padding: 20px;  
 }
 
-/*!------SECTION CONTATTO--------*/
+/*!------SECTION PARTNER--------*/
 
 .section-partner{
     height: 100%;
@@ -252,4 +252,18 @@ main{
     justify-self: left;
     justify-content: center;
     padding: 40px;
+}
+
+/*!------SECTION BUSINESS--------*/
+
+.section-business{
+
+}
+
+.bus-cards{
+
+}
+
+.card-business{
+
 }
