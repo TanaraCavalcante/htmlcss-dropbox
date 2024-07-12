@@ -90,6 +90,7 @@ header{
 
     font-size: 12px;
     height: 60px;
+    background-color: white;
     padding: 10px;
     box-shadow: 0px 2px 3px gray;
     
@@ -169,9 +170,13 @@ main{
     padding-top: 10%;
 }
 
+.cards-price{
+
+}
+
 .card{
-    flex-direction: row;
-    flex-basis: 32%;
+    flex-direction: column;
+    flex-basis: calc(100%/3);
 }
 
 
