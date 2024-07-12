@@ -138,7 +138,6 @@ header div{
 
 main{
     padding-top: 60px;
-    margin-bottom: 60px;
 }
 
 /*!--------SECTION TOP-------- */
@@ -320,3 +319,32 @@ main{
 }
 
 /*!------SECTION DOMANDE--------*/
+
+.section-domande{
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+.section-domande > h2{
+    margin-bottom:
+}
+
+.domande-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.domande-line > .line{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .line .border-solid {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
