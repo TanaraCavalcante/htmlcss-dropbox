@@ -30,16 +30,11 @@ img{
     width: 100%;
 }
 
-a{
+.flex.row li a{
     text-decoration: none;
     color: black;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
 
 li{
     list-style-type: none;
@@ -72,8 +67,16 @@ p{
     display: flex;
 }
 
+.row{
+    flex-direction: row;
+
+}
 .gap20{
     gap: 20px;
+}
+
+.gap15{
+    gap: 15px;
 }
 
 .gap10{
@@ -177,7 +180,9 @@ main{
 
 .card-top{
     border: 1px solid black;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 30px;  
 }
 
 
