@@ -32,7 +32,6 @@ img{
     max-width: 100%;
 }
 
-
 li{
     list-style-type: none;
 }
@@ -41,6 +40,7 @@ li{
     display: flex;
 }
 
+/*  buttons */
 .btn{
     padding: 10px 15px;
 }
@@ -52,6 +52,12 @@ li{
 .btn.btn-primary{
     background-color: #0061FE;
     color: white;  
+}
+
+.btn.btn-secondary{
+    background-color: white;
+    border: 1px solid;
+    color: black;
 }
 
 .btn.btn-big{
@@ -97,7 +103,7 @@ h2{
     margin-bottom: 20px;
 }
 
-/* TODO      INTESTAZIONE   */
+/* TODO-------INTESTAZIONE--------- */
 
 header{
     position: fixed;
@@ -127,13 +133,13 @@ header div{
     width: 80%;
 }
 
-/*! CORPO DEL SITO */
+/*TODO-------- CORPO DEL SITO---------------- */
 
 main{
     margin-top: 60px;
 }
 
-/*! SECTION TOP */
+/*!--------SECTION TOP-------- */
 .section-top-bcg{
     background-color: #A1C9F7;
     padding-top: 40px;
@@ -174,7 +180,7 @@ main{
     max-width: 70%;
 }
 
-/* !  SECTION-FATTURE */
+/*!-------SECTION-FATTURE--------*/
 
 .section-fatture{
     margin-bottom: 50px;
@@ -226,3 +232,24 @@ main{
     padding: 20px;  
 }
 
+/*!------SECTION CONTATTO--------*/
+
+.section-partner{
+    height: 100%;
+    display: flex;
+    margin: 150px auto;
+}
+
+.col-left{
+    flex-basis: 60%;  
+}
+
+.col-rigth{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    gap: 30px;
+    justify-self: left;
+    justify-content: center;
+    padding: 40px;
+}
