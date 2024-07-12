@@ -133,15 +133,16 @@ header div{
     width: 80%;
 }
 
+
 /*TODO-------- CORPO DEL SITO---------------- */
 
 main{
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 60px;
 }
 
 /*!--------SECTION TOP-------- */
-.section-top-bcg{
+.section-top-bcg {
     background-color: #A1C9F7;
     padding-top: 40px;
 }
@@ -297,3 +298,25 @@ main{
 
 
 /*!------SECTION AZIENDA--------*/
+
+.section-azienda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.bcg-color{
+    background-color: #A1C9F7;
+}
+
+.section-azienda > .card-left{
+    color:#5c1129;
+    flex-basis: 50%;
+}
+
+.section-azienda > .card-rigth{
+    padding-right: 20px;
+}
+
+/*!------SECTION DOMANDE--------*/
