@@ -328,10 +328,6 @@ main{
     padding: 100px 0;
 }
 
-.section-domande > h2{
-    margin-bottom:
-}
-
 .domande-line{
     display: flex;
     flex-direction: column;
@@ -342,9 +338,4 @@ main{
 .domande-line > .line{
     display: flex;
     justify-content: space-between;
-}
-
- .line .border-solid {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
 }
