@@ -170,15 +170,15 @@ main{
     padding-top: 10%;
 }
 
-.cards-price{
-
-}
-
 .card{
     flex-direction: column;
     flex-basis: calc(100%/3);
 }
 
+.card-top{
+    border: 1px solid black;
+    text-align: center;
+}
 
 
 
