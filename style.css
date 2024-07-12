@@ -137,6 +137,7 @@ header div{
 
 main{
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /*!--------SECTION TOP-------- */
@@ -268,6 +269,9 @@ main{
 }
 
 .business-cards > .card-bus {
+   display: flex;
+   flex-direction: column;
    flex-basis: calc(100% / 3 - 40px / 3);
-   min-height: 80px;
+   height: 100%;
+   gap: 20px;
 }
