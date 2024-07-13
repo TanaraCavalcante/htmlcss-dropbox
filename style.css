@@ -344,4 +344,33 @@ main{
 
 footer{
     background-color: black;
+    color: white;
+}
+
+.footer-col{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    height: 200px;
+    gap: 10px;
+}
+
+.title-footer{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.card-footer .large{
+    height: 70%;
+
+}
+
+.card-footer .small{
+   flex-direction: row;
+   height: 30%;
 }
