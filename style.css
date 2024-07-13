@@ -7,8 +7,6 @@
 .big-contenitore{
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
 }
 
 .contenitore{
@@ -185,6 +183,7 @@ main{
 
 .section-fatture{
     margin-bottom: 50px;
+    padding-top: 100px;
 }
 
 .card-intest{
@@ -347,25 +346,28 @@ footer{
     color: white;
 }
 
-.footer-col{
+.foo-cols{
     display: flex;
     flex-wrap: wrap;
+    height: 350px;
+    padding: 40px 0 10px 0;
 }
 
 .card-footer{
     display: flex;
     flex-direction: column;
     flex-basis: 20%;
-    height: 200px;
     gap: 10px;
 }
 
-.card-footer .large{
-    height: 70%;
+.card-footer.large{
+    height: 75%;
 }
 
-.card-footer .small{
-   
+.card-footer.small{
+   display: flex;
+   flex-direction: row;
+   height: 25%;
 }
 
 .title-footer{
