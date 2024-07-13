@@ -339,3 +339,9 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+/*?------FOOTER--------*/
+
+footer{
+    background-color: black;
+}
