@@ -360,17 +360,15 @@ footer{
     gap: 10px;
 }
 
-.title-footer{
-    font-size: 18px;
-    padding-bottom: 20px;
-}
-
 .card-footer .large{
     height: 70%;
-
 }
 
 .card-footer .small{
-   flex-direction: row;
-   height: 30%;
+   
+}
+
+.title-footer{
+    display: flex;
+    font-size: 18px; 
 }
