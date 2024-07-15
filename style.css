@@ -295,7 +295,7 @@ main{
 
 .boxes{
     display: flex;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(244, 244, 224);
 }
 
 .boxes .big-box{
@@ -317,6 +317,14 @@ main{
 .box img{
     width: 50%;
     filter: invert(1);
+}
+
+.box-center img{
+    width: 50%;
+}
+
+.big-box.center{
+    padding: 30px;
 }
 
 /*!------SECTION AZIENDA--------*/
