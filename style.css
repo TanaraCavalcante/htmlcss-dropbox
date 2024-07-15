@@ -314,7 +314,10 @@ main{
     justify-content: center;
 }
 
-
+.box img{
+    width: 50%;
+    filter: invert(1);
+}
 
 /*!------SECTION AZIENDA--------*/
 
