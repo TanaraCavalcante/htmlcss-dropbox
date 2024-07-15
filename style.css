@@ -196,12 +196,14 @@ main{
     margin-bottom: 30px;
 }
 
- .fatture-bottom .col {
+
+.fatture-bottom .col {
     display: flex;
     flex-direction: column;
     flex-basis: calc(100% / 3 - 40px / 3);
-    height: 20px;
+    height: 100%;
     gap: 20px;
+    border: 1px solid;
  }
 
 .col.horizontal{
@@ -212,6 +214,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid;
+}
+
+.icon-list li{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: baseline;
 }
 
 
