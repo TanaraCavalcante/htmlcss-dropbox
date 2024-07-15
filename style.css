@@ -108,6 +108,10 @@ h3{
     gap: 15px;
 }
 
+.mg-top{
+    margin-top: 20px;
+}
+
 /* TODO-------INTESTAZIONE--------- */
 
 header{
@@ -237,7 +241,7 @@ main{
 }
 
 .content-col p.btn{
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
 }
 
