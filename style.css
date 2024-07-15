@@ -77,6 +77,10 @@ h2{
     margin-bottom: 20px;
 }
 
+h3{
+    font-size: 1.5em;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -196,18 +200,18 @@ main{
     margin-bottom: 30px;
 }
 
-
 .fatture-bottom .col {
     display: flex;
     flex-direction: column;
     flex-basis: calc(100% / 3 - 40px / 3);
-    height: 100%;
-    gap: 20px;
+    height:  700px;
     border: 1px solid;
+    font-size: 14px;
  }
 
 .col.horizontal{
     flex-grow: 1;
+    height: 200px;
 }
 
 .intest-col{
@@ -215,6 +219,20 @@ main{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid;
+    height: 30px;
+    gap: 10px;
+}
+
+.content-col{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-col p.btn{
+    font-size: 12px;
+    text-align: center;
 }
 
 .icon-list li{
