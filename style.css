@@ -238,6 +238,10 @@ main{
     align-items: baseline;
 }
 
+.icon-list.fa-color i{
+    color: #0061FE;
+}
+
 /*Column horizontal*/
 
 .content-col.horizontal{
