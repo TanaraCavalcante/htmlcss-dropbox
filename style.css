@@ -108,6 +108,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
     height: 80px;
     background-color: white;
     padding: 10px;
@@ -325,6 +326,42 @@ main{
 
 .big-box.center{
     padding: 30px;
+}
+
+/* Colore dei background di ogni scatolla*/
+
+/*left*/
+.box.left:first-child{
+    background-color: rgb(149, 214, 149);
+}
+
+.box.left:nth-child(2){
+    background-color: #5c1129;
+}
+
+.box.left:nth-child(3){
+    background-color: rgb(6, 188, 249);
+}
+
+.box.left:last-child{
+    background-color: rgb(255, 34, 0);
+}
+
+/*Rigth*/
+.box.rigth:first-child{
+    background-color: rgba(185, 17, 17, 0.73);
+}
+
+.box.rigth:nth-child(2){
+    background-color: rgb(140, 208, 245);
+}
+
+.box.rigth:nth-child(3){
+    background-color: rgb(27, 25, 136);
+}
+
+.box.rigth:last-child{
+    background-color: yellow;
 }
 
 /*!------SECTION AZIENDA--------*/
