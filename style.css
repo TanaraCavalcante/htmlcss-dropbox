@@ -74,6 +74,7 @@ h1{
 
 h2{
     font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .bold{
@@ -187,6 +188,10 @@ main{
     padding-top: 100px;
 }
 
+.fatturazione{
+    margin-bottom: 20px;
+}
+
 .card-intest{
     border-bottom: 1px solid black;
     justify-content: center;
@@ -204,6 +209,7 @@ main{
     border: 1px solid;
 }
 
+.
 
 /*-- Card nella orizontale--*/
 .card-team{
