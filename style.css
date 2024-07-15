@@ -59,7 +59,7 @@ li{
 }
 
 .btn.btn-big{
-    padding: 10px 70px;
+    padding: 10px 40px;
 }
 
 .btn.mrgn20 {
@@ -79,6 +79,7 @@ h2{
 
 h3{
     font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .bold{
@@ -204,15 +205,10 @@ main{
     display: flex;
     flex-direction: column;
     flex-basis: calc(100% / 3 - 40px / 3);
-    height:  700px;
+    height:  750px;
     border: 1px solid;
     font-size: 14px;
  }
-
-.col.horizontal{
-    flex-grow: 1;
-    height: 200px;
-}
 
 .intest-col{
     display: flex;
@@ -240,6 +236,33 @@ main{
     gap: 10px;
     margin-bottom: 10px;
     align-items: baseline;
+}
+
+/*Column horizontal*/
+
+.content-col.horizontal{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    padding-bottom: 10px;
+}
+
+.col.horizontal{
+    flex-grow: 1;
+    height: 200px;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 70%;
+}
+
+.rigth-content{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
 }
 
 
